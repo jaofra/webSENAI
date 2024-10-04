@@ -1,0 +1,26 @@
+p{
+    color: blue;
+}
+p{
+    /*deixar o p com a cor escolhida*/
+    color: blueviolet;
+}
+
+#frase{
+    background-color: yellow;
+    /*deixar o texto no meio*/
+    text-align: center;
+    /*colocar a linha em baixo*/
+    text-decoration: underline;
+    /*tamanho da fonte*/
+    font-size: 40px;
+    /*troca a fonte*/
+    font-family: "Bell MT";
+}
+body{
+    background-color: #708686;
+}
+/*fazer alguma coisa com o mouse*/
+p:hover {
+    color:black;
+}

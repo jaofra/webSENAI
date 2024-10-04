@@ -1,0 +1,12 @@
+li, a{
+    color: black;
+
+}
+li, a{
+text-decoration: none;
+
+}
+a:hover {
+ color: #940000;
+
+}

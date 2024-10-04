@@ -1,0 +1,40 @@
+.div_block {
+    color: #940000;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    /*block define a largura 100%, padrão da div*/
+    display: block;
+
+}
+
+.div_inline{
+    color: blueviolet;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    display: inline;
+
+}
+div p{
+    display: inline;
+
+}
+body{
+    text-align: center;
+}
+.div_inline-block{
+    color: black;
+
+    background-color: #add250;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /*espessurs tipo cor*/
+    border: 5px solid red;
+    /**/
+    padding: 10px;
+    /*deixa os cantos arredondados*/
+    border-radius: 10px;
+}

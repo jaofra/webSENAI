@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="submit" method="post">
+    <label for="nome">nome:</label>
+    <input id="nome" type="text"required placeholder="escreva seu nome"><br><br>
+
+    <label for="senha">senha:</label>
+    <input id="senha"  type="password" required placeholder="escreva sua senha">
+
+    <label for="mensagem">mensagem:</label>
+    <textarea id="mensagem" type="password"required placeholder="********"></textarea><br>
+
+    <label for="cidade">cidade: </label>
+    <select id="cidade">
+        <optgroup label="vizinhas">
+
+        <option value="aracatuba">araçatuba</option>
+        <option value="guararapes">guararapes</option>
+
+        </optgroup>
+        <optgroup label="capitais">
+
+        <option value="aracatuba">sao-paulo</option>
+        <option value="guararapes">rio-de-janeiro</option>
+
+        </optgroup>
+    </select>br
+    <button type="submit">salvar</button>
+    <button type="reset">limpar</button>
+
+
+</form>
+</body>
+</html>

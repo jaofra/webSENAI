@@ -1,0 +1,58 @@
+body {
+    background-color: #dcd06b;
+}
+ul {
+    background-color: white;
+    border-radius: 10px;
+}
+
+li {
+    background-color: #708686;
+    margin-bottom: 5px;
+
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+p {
+    color: black;
+    font-size: 36px;
+}
+.verde {
+    /*.verde*/
+    color: green;
+    text-align: start;
+
+}
+.vermelho{
+/*vermelho*/
+    color: red;
+    text-align: center;
+}
+.azul {
+/*azul*/
+    color: blue;
+    text-align: right;
+}
+.roxo {
+/*roxo*/
+    color: blueviolet;
+    text-align: center;
+}
+.amarelo {
+/*amarelo*/
+    color: yellow;
+    text-align: start;
+}
+.rosa {
+/*rosa*/
+    color: fuchsia;
+    text-align: center;
+}
+li:hover {
+    text-align: start;
+    color: black;
+    background-color: white;
+
+}

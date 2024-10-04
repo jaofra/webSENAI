@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vw;
+
+}
+.primeiro:hover, .segundo:hover, .terceiro:hover, .quarto:hover {
+    color: black;
+    background-color: white;
+}
+.primeiro{
+    display: inline-block;
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+}
+.segundo{
+    display: inline-block;
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.terceiro{
+    text-align: center;
+    display: inline-block;
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.quarto{
+    text-align: center;
+    background-color: green;
+    width: 50vw;
+    height: 150px;
+    border-radius: 40px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+}
